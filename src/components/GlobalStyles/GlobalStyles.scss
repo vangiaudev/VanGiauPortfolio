@@ -1,0 +1,103 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+    --primary: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+    --black: #000;
+    --white: rgba(255, 255, 255, 1);
+    --text-color: rgb(230, 230, 231);
+    --border-color: #be50f4;
+    --font-default: "IBM Plex Sans", sans-serif;
+    --color-highlight: #cd5ff8;
+    --blue-sky: #54a8e4;
+    //Default layout
+    --default-layout-header-height: 80px;
+    --default-layout-header-width: 80%;
+    --default-layout-horizontal-spacer: 20px;
+    --image-gradient: linear-gradient(to bottom left, rgba(17, 16, 16, 0.478), rgba(12, 10, 22, 0.863));
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-default);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+    overflow-y: overlay;
+    background-image: var(--primary);
+}
+
+/*Custom Scrollbar*/
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(178, 121, 216, 0.959);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+html *::-webkit-scrollbar-thumb:hover {
+    background: rgba(239, 154, 250, 0.911);
+    border-radius: 12px;
+}
+
+a[href] {
+    color: var(--text-color);
+    transition: color 250ms ease 0s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+button,
+input,
+[tabIndex] {
+    outline: none;
+    border: none;
+}
+
+body {
+    .tippy-box {
+        background-color: rgba(84, 84, 84, 0.92);
+        border-radius: 8px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.2rem;
+    }
+    .tippy-arrow {
+        color: rgba(84, 84, 84, 0.92);
+    }
+    .tippy-box[data-placement^="bottom"] > .tippy-arrow::before {
+        top: -8px;
+    }
+    .tippy-content {
+        padding: 8px 9px;
+    }
+}
+
+.highlight {
+    color: var(--color-highlight);
+    margin: 0 8px;
+}
+.bg-night {
+    background: var(--primary);
+}

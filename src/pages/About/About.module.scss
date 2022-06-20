@@ -1,0 +1,98 @@
+@mixin mobile {
+    @media only screen and(max-width: 768px) {
+        @content;
+    }
+}
+.wrapper {
+    display: grid;
+    grid-gap: 36px;
+    min-height: 100vh;
+    padding: 120px var(--default-layout-header-height) var(--default-layout-header-height);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    background: url(../../assets/images/bg_home.jpg) no-repeat top center;
+
+    @include mobile {
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0 20px;
+    .heading {
+        font-size: 3.5rem;
+    }
+    .about-description {
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+    .about-image {
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(45deg, transparent, #38250b, transparent);
+
+        img {
+            width: 80%;
+            border-radius: inherit;
+            overflow: hidden;
+            @include mobile {
+                width: 50%;
+            }
+        }
+    }
+    .hobby {
+        padding: 20px 0 20px 20px;
+    }
+}
+
+.container {
+    width: 100%;
+    background: var(--primary);
+    padding: 20px 0;
+
+    .heading {
+        text-align: center;
+    }
+    .skills {
+        display: grid;
+        grid-gap: 10px;
+        padding: 0 40px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+        &-item {
+            border: 1.7px solid rgba(200, 137, 230, 0.637);
+            border-radius: 5px;
+            box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.5);
+            display: table;
+            font-size: 4.5rem;
+            margin: 15px;
+            opacity: 0.93;
+            overflow: hidden;
+            padding: 10px;
+            text-align: center;
+            transition: all 0.4s ease 0s;
+            vertical-align: middle;
+            &:hover {
+                border: 2.2px solid rgba(197, 115, 230, 0.883);
+                overflow: hidden;
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+                transition-delay: 0.3s;
+            }
+        }
+    }
+    .github-calendar {
+        display: flex;
+        justify-content: center;
+        @include mobile {
+            padding: 20px;
+        }
+    }
+}
