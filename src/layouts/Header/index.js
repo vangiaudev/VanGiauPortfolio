@@ -90,7 +90,7 @@ const Header = () => {
                         );
                     })}
                     <a
-                        href="https://github.com/vangiaurecca/"
+                        href="https://github.com/vangiaurecca/VanGiauPortfolio.git"
                         target="blank"
                         className={cx('fork-btn')}
                     >

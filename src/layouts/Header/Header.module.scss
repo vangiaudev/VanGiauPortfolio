@@ -110,7 +110,7 @@
     }
     .active {
         @include mobile {
-            background: rgba(0, 0, 0, 0.3);
+            background: var(--color-highlight);
         }
     }
     .menu-icon {

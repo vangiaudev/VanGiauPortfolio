@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './About.module.scss';
-import images from '~/assets/images';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faFutbol,
@@ -61,9 +60,9 @@ const About = () => {
                     </div>
                 </div>
                 <div className={cx('content')}>
-                    <div className={cx('about-image')}>
+                    {/* <div className={cx('about-image')}>
                         <img src={images.aboutMeImage} alt="#" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <Skill />

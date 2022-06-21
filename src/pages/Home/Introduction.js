@@ -52,7 +52,7 @@ const Introduction = () => {
 
                     <div className={cx('introduce')}>
                         <h4>
-                            A passionate FrontEnd Web developer from{' '}
+                            A passionate FrontEnd Web developer from
                             <span className={cx('highlight')}>Vietnam</span>
                         </h4>
                         <h4>
@@ -60,26 +60,26 @@ const Introduction = () => {
                             learnt something, I think… 🤷‍♂️
                         </h4>
                         <h4>
-                            I am fluent in classics like{' '}
+                            I am fluent in classics like
                             <span className={cx('highlight')}>
                                 C++, Javascript and Java.
                             </span>
                         </h4>
                         <h4>
                             Whenever possible, I also apply my passion for
-                            developing products with{' '}
-                            <span className={cx('highlight')}>NodeJS</span> and{' '}
+                            developing products with
+                            <span className={cx('highlight')}>NodeJS</span> and
                             <span className={cx('highlight')}>
                                 Modern Javascript Library and Frameworks
                             </span>
-                            like{' '}
+                            like
                             <span className={cx('highlight')}>ReactJS</span>
                         </h4>
                     </div>
                 </div>
                 <div className={cx('content')}>
                     <div className={cx('introduce-image')}>
-                        <img src={images.myImage} alt="Văn Giàu" />
+                        <img src={images.myAvatar} alt="Văn Giàu" />
                     </div>
                 </div>
             </div>

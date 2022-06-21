@@ -9,6 +9,7 @@ import {
     faGithub,
     faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+import images from '~/assets/images';
 
 const cx = classNames.bind(styles);
 
@@ -36,6 +37,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={cx('content')}>
+                    <div className={cx('home-image')}>
+                        <img src={images.myImage} alt="Văn Giàu" />
+                    </div>
                     <div className={cx('container')}>
                         <div className={cx('home-socials')}>
                             <a href="https://www.linkedin.com/in/vangiaurecca">

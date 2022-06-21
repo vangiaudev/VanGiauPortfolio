@@ -10,7 +10,7 @@
     min-height: 100vh;
     padding: 120px var(--default-layout-header-height) var(--default-layout-header-height);
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    background-image: var(--image-gradient), url(../../assets/images/bg_vangiau.png);
+    background-image: var(--image-gradient), url(../../assets/images/bg_home.jpg);
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -39,14 +39,15 @@
         font-size: 3.5rem;
         text-transform: uppercase;
         @include mobile {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         &-name {
             font-size: 4rem;
             padding-right: 45px;
             padding-bottom: 20px;
             @include mobile {
-                font-size: 3rem;
+                padding-right: 0;
+                font-size: 2.5rem;
             }
         }
     }
@@ -55,16 +56,10 @@
         color: var(--color-highlight);
 
         @include mobile {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
     }
 
-    .home-image {
-        img {
-            width: 360px;
-            height: 360px;
-        }
-    }
     .container {
         display: flex;
     }
@@ -78,8 +73,7 @@
         right: 0;
         bottom: 10px;
         @include mobile {
-            right: 50%;
-            left: 50%;
+            right: 10px;
         }
         .icon {
             font-size: 2.2rem;
@@ -94,34 +88,46 @@
         }
     }
 
+    .home-image {
+        background: linear-gradient(var(--color-highlight), transparent);
+        width: 350px;
+        margin: 0 auto;
+        height: 400px;
+        position: relative;
+        border-top-left-radius: 120px;
+        border-top-right-radius: 120px;
+        overflow: hidden;
+
+        @include mobile {
+            width: 300px;
+            height: 350px;
+        }
+        img {
+            width: 350px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            @include mobile {
+                width: 300px;
+            }
+        }
+    }
     .introduce {
         h4 {
             font-size: 2rem;
             font-weight: 600;
             margin-bottom: 20px;
-        }
-
-        &-image {
-            background: linear-gradient(var(--color-highlight), transparent);
-            width: 350px;
-            margin: 0 auto;
-            height: 400px;
-            position: relative;
-            border-top-left-radius: 120px;
-            border-top-right-radius: 120px;
-            overflow: hidden;
             @include mobile {
-                width: 300px;
+                font-size: 1.5rem;
             }
+        }
+        &-image {
+            text-align: center;
             img {
-                width: 350px;
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                top: 0;
-                @include mobile {
-                    width: 300px;
-                }
+                width: 70%;
+                height: 70%;
+                border-radius: 100rem;
             }
         }
     }

@@ -9,7 +9,7 @@
     min-height: 100vh;
     padding: 120px var(--default-layout-header-height) var(--default-layout-header-height);
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    background: url(../../assets/images/bg_home.jpg) no-repeat top center;
+    background: var(--image-gradient), url(../../assets/images/bg_vangiau.png) no-repeat top center fixed;
 
     @include mobile {
         padding: 0;
