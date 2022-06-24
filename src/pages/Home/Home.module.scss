@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     /* > Mobile */
     @include mobile {
-        place-items: end;
+        place-items: center;
         grid-template-columns: 1fr;
         padding: 0;
     }
