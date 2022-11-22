@@ -17,7 +17,7 @@ function Github() {
             </h1>
             <div className={cx('github-calendar')}>
                 <GitHubCalendar
-                    username="vangiaurecca"
+                    username="vangiaudev"
                     blockSize={16}
                     blockMargin={8}
                     theme={colorTheme}

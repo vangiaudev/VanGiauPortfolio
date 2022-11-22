@@ -25,7 +25,7 @@ const Footer = () => {
                         icon={faTwitter}
                     />
                 </a>
-                <a target="blank" href="https://github.com/vangiaurecca">
+                <a target="blank" href="https://github.com/vangiaudev">
                     <FontAwesomeIcon
                         className={cx('socials-icon')}
                         icon={faGithub}

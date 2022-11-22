@@ -66,7 +66,7 @@ const Header = () => {
                 <div className={cx('logo')}>
                     <Link to="/">
                         <img
-                            src="https://vangiaurecca.github.io/PersonalBlog/img/logo_name_blog.png"
+                            src="https://vangiaudev.github.io/PersonalBlog/img/logo_name_blog.png"
                             alt="LOGO"
                         />
                     </Link>
@@ -90,7 +90,7 @@ const Header = () => {
                         );
                     })}
                     <a
-                        href="https://github.com/vangiaurecca/VanGiauPortfolio.git"
+                        href="https://github.com/vangiaudev/VanGiauPortfolio.git"
                         target="blank"
                         className={cx('fork-btn')}
                     >
