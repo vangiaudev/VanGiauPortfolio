@@ -1,5 +1,13 @@
 export const projects = [
     {
+        image: 'https://user-images.githubusercontent.com/75024999/203250364-ed0dc1b6-01f2-47bb-8579-c5cd087c1143.png',
+        name: 'System For Student Certification Registration',
+        description:
+            'SCRS (Student Confirmation Registration System) is a system to register student certificates for purposes such as military service suspension, loan procedures, etc. SCRS support the computerization of documents. Basic functions that a student management system should have.',
+        source: 'https://github.com/vangiaudev/ChungNhanSinhVienHCMUE.git',
+        link: 'http://dkcn.herokuapp.com/',
+    },
+    {
         image: 'https://user-images.githubusercontent.com/75024999/164953511-bc4beb9e-f620-4746-baeb-aa16c8cd7d47.png',
         name: 'Zing Music',
         description:
