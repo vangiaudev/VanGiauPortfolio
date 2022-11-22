@@ -52,7 +52,7 @@ const Introduction = () => {
 
                     <div className={cx('introduce')}>
                         <h4>
-                            A passionate FrontEnd Web developer from
+                            A passionate .NET developer from
                             <span className={cx('highlight')}>Vietnam</span>
                         </h4>
                         <h4>
@@ -62,7 +62,7 @@ const Introduction = () => {
                         <h4>
                             I am fluent in classics like
                             <span className={cx('highlight')}>
-                                C++, Javascript and Java.
+                                C#, HTML, CSS, Javascript
                             </span>
                         </h4>
                         <h4>
@@ -73,7 +73,9 @@ const Introduction = () => {
                                 Modern Javascript Library and Frameworks
                             </span>
                             like
-                            <span className={cx('highlight')}>ReactJS</span>
+                            <span className={cx('highlight')}>
+                                ReactJS, ASP.NET Core
+                            </span>
                         </h4>
                     </div>
                 </div>
