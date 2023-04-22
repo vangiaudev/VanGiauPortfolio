@@ -1,7 +1,7 @@
 export const projects = [
         {
         image: 'https://user-images.githubusercontent.com/75024999/233792152-f39d48e8-aaa4-499a-8838-aa21555c3dd2.png',
-        name: 'Money24h',
+        name: 'Toyota Việt Nam',
         description:
             'Toyota Việt Nam | Trang thông tin chính thức của hãng xe Toyota',
         source: '#',
@@ -9,7 +9,7 @@ export const projects = [
     },
     {
         image: 'https://user-images.githubusercontent.com/75024999/233792054-6214724a-52e9-4f4d-b08f-6e679df12f15.png',
-        name: 'Money24h',
+        name: 'Tool SEO',
         description:
             'SEO Tools Free by TopOnSeek',
         source: '#',
