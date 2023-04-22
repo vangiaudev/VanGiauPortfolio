@@ -1,4 +1,28 @@
 export const projects = [
+        {
+        image: 'https://user-images.githubusercontent.com/75024999/233792152-f39d48e8-aaa4-499a-8838-aa21555c3dd2.png',
+        name: 'Money24h',
+        description:
+            'Toyota Việt Nam | Trang thông tin chính thức của hãng xe Toyota',
+        source: '#',
+        link: 'https://www.toyota.com.vn/',
+    },
+    {
+        image: 'https://user-images.githubusercontent.com/75024999/233792054-6214724a-52e9-4f4d-b08f-6e679df12f15.png',
+        name: 'Money24h',
+        description:
+            'SEO Tools Free by TopOnSeek',
+        source: '#',
+        link: 'https://tool.toponseek.com/',
+    },
+    {
+        image: 'https://user-images.githubusercontent.com/75024999/233791787-e9316db9-fbb9-4f5d-a5f3-dbeb84821a3f.png',
+        name: 'Money24h',
+        description:
+            'Money24H - Latest Banking and Financial Market News Last 24H',
+        source: '',
+        link: 'https://money24h.vn/',
+    },
     {
         image: 'https://user-images.githubusercontent.com/75024999/203250364-ed0dc1b6-01f2-47bb-8579-c5cd087c1143.png',
         name: 'System Student Certification Registration',
