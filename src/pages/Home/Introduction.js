@@ -68,13 +68,8 @@ const Introduction = () => {
                         <h4>
                             Whenever possible, I also apply my passion for
                             developing products with
-                            <span className={cx('highlight')}>NodeJS</span> and
                             <span className={cx('highlight')}>
-                                Modern Javascript Library and Frameworks
-                            </span>
-                            like
-                            <span className={cx('highlight')}>
-                                ReactJS, ASP.NET Core
+                                ASP.NET Core
                             </span>
                         </h4>
                     </div>
