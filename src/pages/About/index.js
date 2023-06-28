@@ -39,7 +39,7 @@ const About = () => {
                         Tien Giang, Vietnam
                         <br />
                         <span className="highlight">Email: </span>
-                        vangiau.recca@gmail.com
+                        vangiau.dev@gmail.com
                         <br />
                     </h4>
                     <h3>
@@ -49,9 +49,6 @@ const About = () => {
                     <div className={cx('hobby')}>
                         <h3>
                             <FontAwesomeIcon icon={faFutbol} /> Playing Football
-                        </h3>
-                        <h3>
-                            <FontAwesomeIcon icon={faGamepad} /> Playing Game
                         </h3>
                         <h3>
                             <FontAwesomeIcon icon={faUmbrellaBeach} />{' '}
