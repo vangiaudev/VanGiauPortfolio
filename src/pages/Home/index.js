@@ -42,7 +42,7 @@ const Home = () => {
                     </div>
                     <div className={cx('container')}>
                         <div className={cx('home-socials')}>
-                            <a href="https://www.linkedin.com/in/vangiaudev">
+                            <a href="https://www.linkedin.com/in/vangiaudeveloper">
                                 <FontAwesomeIcon
                                     className={cx('icon')}
                                     icon={faLinkedin}
