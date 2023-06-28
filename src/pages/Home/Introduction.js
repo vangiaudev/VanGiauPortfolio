@@ -15,7 +15,7 @@ const socials = [
         icon: (
             <FontAwesomeIcon className={cx('socials-icon')} icon={faFacebook} />
         ),
-        link: 'https://www.fb.com/vangiau.recca',
+        link: 'https://www.fb.com/vangiau.dev',
     },
     {
         icon: (
@@ -24,13 +24,13 @@ const socials = [
                 icon={faInstagram}
             />
         ),
-        link: 'https://www.instagram.com/vangiau.recca/',
+        link: 'https://www.instagram.com/vangiau.dev/',
     },
     {
         icon: (
             <FontAwesomeIcon className={cx('socials-icon')} icon={faTwitter} />
         ),
-        link: 'https://twitter.com/vangiau_recca',
+        link: 'https://twitter.com/vangiau_dev',
     },
     {
         icon: (
