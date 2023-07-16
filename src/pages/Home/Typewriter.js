@@ -5,7 +5,7 @@ import styles from './Home.module.scss';
 const cx = classNames.bind(styles);
 const Typewriter = () => {
     const { text } = useTypewriter({
-        words: ['Back End Developer'],
+        words: ['Software Engineer'],
         loop: 0,
         typeSpeed: 180,
     });
