@@ -57,7 +57,7 @@ const Introduction = () => {
                         </h4>
                         <h4>
                             I fell in love with programming and I have at least
-                            learnt something, I think… 🤷‍♂️
+                            learn something, I think… 🤷‍♂️
                         </h4>
                         <h4>
                             I am fluent in classics like
