@@ -55,6 +55,7 @@ const About = () => {
                             Travelling
                         </h3>
                     </div>
+                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="vangiaudeveloper" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://vn.linkedin.com/in/vangiaudeveloper?trk=profile-badge">Nguyễn Văn Giàu</a></div>
                 </div>
                 <div className={cx('content')}>
                     {/* <div className={cx('about-image')}>
