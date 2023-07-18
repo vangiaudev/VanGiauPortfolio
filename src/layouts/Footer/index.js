@@ -6,7 +6,7 @@ import {
     faGithub,
     faTwitter,
     faInstagramSquare,
-    faYoutube,
+    faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 const cx = classNames.bind(styles);
 const Footer = () => {
@@ -19,7 +19,7 @@ const Footer = () => {
                 Copyright &#169; {year} VG
             </div>
             <div className={cx('socials')}>
-                <a target="blank" href="https://twitter.com/vangiau_recca">
+                <a target="blank" href="https://twitter.com/vangiau_dev">
                     <FontAwesomeIcon
                         className={cx('socials-icon')}
                         icon={faTwitter}
@@ -31,13 +31,13 @@ const Footer = () => {
                         icon={faGithub}
                     />
                 </a>
-                <a target="blank" href="https://fb.com/vangiau.recca">
+                <a target="blank" href="https://fb.com/vangiau.dev">
                     <FontAwesomeIcon
                         className={cx('socials-icon')}
                         icon={faFacebook}
                     />
                 </a>
-                <a target="blank" href="https://instagram.com/vangiau.recca">
+                <a target="blank" href="https://instagram.com/vangiau.dev">
                     <FontAwesomeIcon
                         className={cx('socials-icon')}
                         icon={faInstagramSquare}
