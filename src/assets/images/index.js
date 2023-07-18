@@ -3,7 +3,7 @@ import NoImage from './no_image.png';
 import MyImage from './my_image.png';
 import MyAvatar from './my_avatar.jpg';
 import AboutMeImage from './about_me_image.jpg';
-import MyCV from './CV_NguyenVanGiau_Intern.pdf';
+import MyCV from './CV_NguyenVanGiau.pdf';
 const images = {
     introImage: IntroImage,
     noImage: NoImage,

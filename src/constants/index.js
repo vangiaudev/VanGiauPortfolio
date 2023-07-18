@@ -1,5 +1,29 @@
 export const projects = [
-        {
+    {
+        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/254106036-308e92b4-a026-419b-ae89-49006a2df88a.jpg',
+        name: 'HỆ THỐNG GIÁM SÁT CAMARA AN NINH',
+        description:
+            'HỆ THỐNG QUẢN LÝ AN NINH VÀ GIAO THÔNG | Thuộc Bộ Công An Việt Nam',
+        source: '#',
+        link: '#',
+    },
+    {
+        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/254105771-fbef0775-0c36-40fc-8edc-6b135b79233d.png',
+        name: 'THACO AUTO',
+        description:
+            'HỆ THỐNG QUẢN LÝ NỘI BỘ | CÔNG TY CỔ PHẦN Ô TÔ TRƯỜNG HẢI',
+        source: '#',
+        link: 'https://thaco-cms.toponseek.com/',
+    },
+    {
+        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/254105436-b42c758d-75ff-41c2-bdb5-2811968c2447.png',
+        name: 'Mazda App',
+        description:
+            'MAZDA APP | ỨNG DỤNG MAZDA SERVICE DÀNH RIÊNG CHO KHÁCH HÀNG SỞ HỮU XE MAZDA',
+        source: '#',
+        link: 'https://mazdamotors.vn/',
+    },
+    {
         image: 'https://user-images.githubusercontent.com/75024999/233792152-f39d48e8-aaa4-499a-8838-aa21555c3dd2.png',
         name: 'Toyota Việt Nam',
         description:
