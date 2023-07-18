@@ -22,7 +22,7 @@ const About = () => {
                         from <span className={cx('highlight')}>Vietnam</span> I
                         am currently studying at{' '}
                         <span className={cx('highlight')}>
-                            Ho Chi Minh City University Of Pedagogy
+                            Ho Chi Minh City University Of Education
                         </span>
                     </h3>
                     <h4 className={cx('about-description')}>
