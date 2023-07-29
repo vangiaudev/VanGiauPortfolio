@@ -19,11 +19,11 @@ const About = () => {
                     <h3>
                         Hi Everyone, I am{' '}
                         <span className={cx('highlight')}>Nguyen Van Giau</span>
-                        from <span className={cx('highlight')}>Vietnam</span> I
-                        am currently studying at{' '}
+                        from <span className={cx('highlight')}>Vietnam</span>. I
+                        am currently a graduate of Information Technology from{' '}
                         <span className={cx('highlight')}>
                             Ho Chi Minh City University Of Education
-                        </span>
+                        </span>. I'm currently working at VNPT-IT
                     </h3>
                     <h4 className={cx('about-description')}>
                         <span className="highlight">Full Name: </span>
@@ -36,7 +36,7 @@ const About = () => {
                         Male
                         <br />
                         <span className="highlight">Address: </span>
-                        Tien Giang, Vietnam
+                        Cho Gao, Tien Giang
                         <br />
                         <span className="highlight">Email: </span>
                         vangiau.dev@gmail.com
