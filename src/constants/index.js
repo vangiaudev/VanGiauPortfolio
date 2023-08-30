@@ -5,7 +5,7 @@ export const projects = [
         description:
             'HỆ THỐNG QUẢN LÝ SẢN LƯỢNG AN NINH VÀ GIAO THÔNG | Sản Phẩm Thuộc VNPT-IT',
         source: '#',
-        link: '#',
+        link: 'http://14.225.14.48:8083/login',
     },
     {
         image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/254106036-308e92b4-a026-419b-ae89-49006a2df88a.jpg',

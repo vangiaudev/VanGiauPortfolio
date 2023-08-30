@@ -8,6 +8,7 @@ import {
     faJs,
     faNodeJs,
     faReact,
+    faAngular,
 } from '@fortawesome/free-brands-svg-icons';
 const cx = classNames.bind(styles);
 const Skill = () => {
@@ -28,6 +29,9 @@ const Skill = () => {
                 </div>
                 <div className={cx('skills-item')}>
                     <FontAwesomeIcon icon={faReact} />
+                </div>
+                <div className={cx('skills-item')}>
+                    <FontAwesomeIcon icon={faAngular} />
                 </div>
                 <div className={cx('skills-item')}>
                     <FontAwesomeIcon icon={faNodeJs} />
