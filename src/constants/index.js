@@ -1,5 +1,13 @@
 export const projects = [
     {
+        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/264209968-0f5a087b-9429-46b0-ad5f-a1f5d61118d0.png',
+        name: 'TOOL SẢN LƯỢNG AI CAMERA',
+        description:
+            'HỆ THỐNG QUẢN LÝ SẢN LƯỢNG AN NINH VÀ GIAO THÔNG | Sản Phẩm Thuộc VNPT-IT',
+        source: '#',
+        link: '#',
+    },
+    {
         image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/254106036-308e92b4-a026-419b-ae89-49006a2df88a.jpg',
         name: 'HỆ THỐNG GIÁM SÁT CAMARA AN NINH',
         description:
