@@ -45,32 +45,47 @@ const Introduction = () => {
             <div className={cx('wrapper', 'bg-night')}>
                 <div className={cx('content')}>
                     <h1 className={cx('heading')}>
-                        LET ME
-                        <span className={cx('highlight')}>INTRODUCE</span>
-                        MYSELF
+                        ĐÔI NÉT
+                        <span className={cx('highlight')}>VỀ BẢN THÂN TÔI</span>
                     </h1>
 
                     <div className={cx('introduce')}>
                         <h4>
-                            A passionate .NET developer from
-                            <span className={cx('highlight')}>Vietnam</span>
-                        </h4>
-                        <h4>
-                            I fell in love with programming and I have at least
-                            learn something, I think… 🤷‍♂️
-                        </h4>
-                        <h4>
-                            I am fluent in classics like
+                            Chào mọi người, tôi là{' '}
+                            <span className={cx('highlight')}>Giàu</span>
+                            được sinh ra và lớn lên tại{' '}
                             <span className={cx('highlight')}>
-                                C#, HTML, CSS, Javascript
+                                Huyện Chợ Gạo
                             </span>
+                            . Và tôi tự hào được gọi Chợ Gạo là ngôi nhà của
+                            mình. Tôi đã trải qua nhiều năm ở đây và nơi đây đã
+                            đánh dấu hành trình phát triển của một lập trình
+                            viên. Huyện Chợ Gạo không giống bất kỳ nơi nào khác.
+                            Đây là một nơi nằm bên bờ sông Tiền Giang, với những
+                            cánh đồng xanh rộn và con người thân thiện. Tôi đã
+                            được sinh ra và lớn lên ở đây, và tôi không thể khỏi
+                            cảm ơn cuộc sống tại đây đã giúp tôi trở nên mạnh mẽ
+                            và kiên định. Tôi luôn mang trong mình tinh thần của
+                            người dân nông thôn Việt Nam - sự kiên trì và lòng
+                            hướng về mục tiêu.
                         </h4>
                         <h4>
-                            Whenever possible, I also apply my passion for
-                            developing products with
+                            🤷‍♂️ Tôi đã theo đuổi đam mê lập trình từ khi còn trẻ,
+                            và dần dần, tôi đã thấy mình tiến gần hơn đến mục
+                            tiêu trở thành một lập trình viên chuyên nghiệp. Và
+                            tôi đã tốt nghiệp ngành{' '}
                             <span className={cx('highlight')}>
-                                ASP.NET Core
+                                Công Nghệ Thông Tin
+                            </span>{' '}
+                            của Trường Đại Học Sư Phạm TP.HCM. Nhưng điều quan
+                            trọng là cuộc hành trình này không chỉ dừng lại ở
+                            đó. Tôi đã phấn đấu không ngừng, học hỏi và phát
+                            triển bản thân để trở thành một{' '}
+                            <span className={cx('highlight')}>
+                                Software Engineer
                             </span>
+                            tại một tập đoàn hàng đầu Việt Nam - Tập đoàn bưu
+                            chính viễn thông Việt Nam (VNPT).
                         </h4>
                     </div>
                 </div>
@@ -83,8 +98,8 @@ const Introduction = () => {
             <div className={cx('container')}>
                 <h2 className={cx('heading')}>GET IN TOUCH</h2>
                 <h4 className={cx('heading-sub')}>
-                    Find me and
-                    <span className={cx('highlight')}>contact</span> me here
+                    Tìm tôi và
+                    <span className={cx('highlight')}>liên hệ</span> tôi tại đây
                 </h4>
                 <ul className={cx('socials')}>
                     {socials.map((social, index) => (

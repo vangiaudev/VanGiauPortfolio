@@ -17,24 +17,24 @@ const cx = classNames.bind(styles);
 const mainNav = [
     {
         icon: <FontAwesomeIcon className={cx('menu-icon')} icon={faHome} />,
-        display: 'Home',
+        display: 'Trang Chủ',
         path: '/',
     },
     {
         icon: <FontAwesomeIcon className={cx('menu-icon')} icon={faUser} />,
-        display: 'About',
+        display: 'Giới Thiệu',
         path: '/about',
     },
     {
         icon: (
             <FontAwesomeIcon className={cx('menu-icon')} icon={faBriefcase} />
         ),
-        display: 'Project',
+        display: 'Dự Án',
         path: '/project',
     },
     {
         icon: <FontAwesomeIcon className={cx('menu-icon')} icon={faBook} />,
-        display: 'Resume',
+        display: 'Hồ Sơ',
         path: '/resume',
     },
 ];

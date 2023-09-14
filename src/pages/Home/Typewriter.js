@@ -12,7 +12,7 @@ const Typewriter = () => {
 
     return (
         <h2 className={cx('type-name')}>
-            <span>{text}</span>
+            <span>Là 1 {text}</span>
             <Cursor />
         </h2>
     );

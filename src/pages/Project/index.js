@@ -11,9 +11,17 @@ const Project = () => {
         <div className={cx('container')}>
             <div className={cx('heading')}>
                 <h1>
-                    My Recent <span className={cx('highlight')}>Works</span>
+                    Dự Án <span className={cx('highlight')}>Đã Tham Gia</span>
                 </h1>
-                <h3>Here are a few projects I've worked on recently</h3>
+                <h2>Những đứa con tinh thần của tôi</h2>
+                <h4>
+                    Khi tham gia bất kỳ dự án nào, tôi đều nghiêm túc và xem đó
+                    là trách nhiệm của chính bản thân mình. Tôi luôn xem mỗi dự
+                    án làm ra là thành quả của trí tuệ, tâm huyết và là đứa con
+                    tinh thần của mình. Cố gắng hoàn thiện và phát triển bản
+                    thân là điều mà tôi vẫn luôn theo đuổi để có thể làm ra
+                    những dự án tuyệt vời hơn nữa.
+                </h4>
             </div>
             <div className={cx('projects')}>
                 {projects.map((project, index) => (

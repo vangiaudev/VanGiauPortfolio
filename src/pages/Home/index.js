@@ -19,7 +19,7 @@ const Home = () => {
             <div className={cx('wrapper')}>
                 <div className={cx('content')}>
                     <h2 className={cx('heading')}>
-                        Hello ...
+                        Chào bạn ...
                         <span
                             className={cx('wave')}
                             role="img"
@@ -29,8 +29,8 @@ const Home = () => {
                         </span>
                     </h2>
                     <h1 className={cx('heading-name')}>
-                        I'M
-                        <strong className={cx('highlight')}>GIAU NGUYEN</strong>
+                        Tôi là
+                        <strong className={cx('highlight')}>Nguyễn Văn Giàu</strong>
                     </h1>
                     <div className={cx('type-name')}>
                         <Typewriter />

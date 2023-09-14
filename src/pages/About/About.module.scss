@@ -96,3 +96,51 @@
         }
     }
 }
+/* Experience.module.scss */
+
+.container {
+    width: 100%;
+    background: var(--primary);
+    padding: 20px 0;
+
+    .heading {
+        text-align: center;
+    }
+
+    .experience-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .experience-item {
+            text-align: center;
+            margin: 20px;
+
+            .company-logo {
+                /* CSS cho logo công ty */
+                width: 100px; /* Ví dụ: đặt chiều rộng là 100px */
+                height: 100px; /* Ví dụ: đặt chiều cao là 100px */
+                margin-right: 20px; /* Ví dụ: đặt khoảng cách bên phải */
+                /* Thêm các thuộc tính CSS khác tùy theo yêu cầu của bạn */
+
+                /* Bổ sung thuộc tính CSS mới cho `.company-logo` */
+                border: 1px solid #ccc; /* Đặt viền cho logo */
+                border-radius: 10px; /* Đặt góc bo cho logo */
+                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Đặt shadow cho logo */
+                transition: transform 0.2s ease-in-out; /* Hiệu ứng thay đổi kích thước khi hover */
+                cursor: pointer; /* Hiển thị biểu tượng con trỏ khi hover */
+
+                &:hover {
+                    transform: scale(1.1); /* Phóng to logo khi hover */
+                }
+            }
+
+            .company-name {
+                /* CSS cho tên công ty */
+                font-weight: bold;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+

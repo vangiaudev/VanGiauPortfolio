@@ -51,7 +51,7 @@ export const projects = [
         image: 'https://user-images.githubusercontent.com/75024999/233791787-e9316db9-fbb9-4f5d-a5f3-dbeb84821a3f.png',
         name: 'Money24h',
         description:
-            'Money24H - Latest Banking and Financial Market News Last 24H',
+            'Money24H - Tin tức thị trường tài chính ngân hàng mới nhất 24H qua',
         source: '',
         link: 'https://money24h.vn/',
     },
@@ -59,7 +59,7 @@ export const projects = [
         image: 'https://user-images.githubusercontent.com/75024999/203250364-ed0dc1b6-01f2-47bb-8579-c5cd087c1143.png',
         name: 'System Student Certification Registration',
         description:
-            'SCRS (Student Confirmation Registration System) is a system to register student certificates for purposes such as military service suspension, loan procedures, etc. SCRS support the computerization of documents. Basic functions that a student management system should have.',
+            'SCRS (Hệ thống đăng ký xác nhận sinh viên) là hệ thống đăng ký chứng chỉ sinh viên cho các mục đích như đình chỉ nghĩa vụ quân sự, thủ tục cho vay, v.v. SCRS hỗ trợ tin học hóa các tài liệu. Các chức năng cơ bản mà một hệ thống quản lý sinh viên cần có.',
         source: 'https://github.com/vangiaudev/ChungNhanSinhVienHCMUE.git',
         link: 'http://dkcn.herokuapp.com/',
     },
@@ -67,15 +67,15 @@ export const projects = [
         image: 'https://user-images.githubusercontent.com/75024999/164953511-bc4beb9e-f620-4746-baeb-aa16c8cd7d47.png',
         name: 'Zing Music',
         description:
-            'Build Website using HTML, CSS, JS like as Zing MP3. This music player will have all the features found in a typical music player. You will be able to add, play, pause and seek songs that have been added. And Will Add Many More Features',
+            'Xây dựng Website sử dụng HTML, CSS, JS như Zing MP3. Trình phát nhạc này sẽ có tất cả các tính năng có trong một trình phát nhạc thông thường. Bạn sẽ có thể thêm, phát, tạm dừng và tìm kiếm các bài hát đã được thêm vào.',
         source: 'https://github.com/vangiaudev/ZingMusic.git',
         link: 'https://vangiaump3.vercel.app/',
     },
     {
         image: 'https://user-images.githubusercontent.com/75024999/143257912-89f2e0e8-dc71-4be7-b13d-1b8a183fb213.png',
-        name: 'Mini Football Field Management System',
+        name: 'Hệ thống quản lý sân bóng đá mini',
         description:
-            'MFFMS (Mini Football Field Management System) is a web-based mini football field management system application. Front-end (React JS) và Back-end (ASP.Net Core)',
+            'MFFMS (Mini Football Field Management System) là một ứng dụng hệ thống quản lý sân bóng đá mini dựa trên web. Front-end (React JS) và Back-end (ASP.Net Core)',
         source: 'https://github.com/vangiaudev/Web_QuanLySanBongDaMini_MFFMS.git',
         link: 'https://mffms.vercel.app/',
     },
@@ -83,7 +83,7 @@ export const projects = [
         image: 'https://user-images.githubusercontent.com/75024999/174482684-ffa152eb-3365-45d6-b616-26f503bf353f.png',
         name: 'Shopee Page',
         description:
-            'Clone Shopee using HTML, CSS. Responsive with grid system. Programming products for self-study and internet research',
+            'Clone Shopee sử dụng HTML, CSS. Responsive với grid system. Sản phẩm lập trình phục vụ việc tự học và nghiên cứu trên mạng',
         source: 'https://github.com/vangiaudev/Shopee_Page.git',
         link: 'https://vangiaudev.github.io/Shopee_Page/index.html',
     },
@@ -91,7 +91,7 @@ export const projects = [
         image: 'https://i.imgur.com/UWGLgni.jpeg',
         name: 'App Ecommerce',
         description:
-            'The application is written on the Java platform and runs on Android devices. Using MySQL & Firebase databases',
+            'Ứng dụng này được viết trên nền tảng Java và chạy trên các thiết bị Android. Sử dụng cơ sở dữ liệu MySQL & Firebase',
         source: 'https://github.com/vangiaudev/ShopTech_App_Android.git',
         link: 'https://github.com/vangiaudev/ShopTech_App_Android.git',
     },

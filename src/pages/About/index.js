@@ -2,57 +2,52 @@ import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './About.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faFutbol,
-    faGamepad,
-    faUmbrellaBeach,
-} from '@fortawesome/free-solid-svg-icons';
+import { faFutbol, faUmbrellaBeach } from '@fortawesome/free-solid-svg-icons';
 import Skill from './Skill';
 import Github from './Github';
+import Experience from './Experience';
+
 const cx = classNames.bind(styles);
 const About = () => {
     return (
         <>
             <div className={cx('wrapper')}>
                 <div className={cx('content')}>
-                    <h1 className={cx('heading')}>Know Who I'M</h1>
+                    <h1 className={cx('heading')}>Ước mơ từ bé</h1>
                     <h3>
-                        Hi Everyone, I am{' '}
-                        <span className={cx('highlight')}>Nguyen Van Giau</span>
-                        from <span className={cx('highlight')}>Vietnam</span>. I
-                        am currently a graduate of Information Technology from{' '}
-                        <span className={cx('highlight')}>
-                            Ho Chi Minh City University Of Education
-                        </span>. I'm currently working at VNPT-IT
+                        Niềm đam mê máy tính đã đồng hành cùng tôi trong suốt
+                        những năm tháng cấp 3. Sự hứng thú với môn học Pascal
+                        lại càng thôi thúc ước mơ trở thành 1 lập trình viên
+                        chuyên nghiệp của tôi. Những thách thức, sự thú vị và
+                        cảm giác thỏa mãn khi có thể giải quyết tốt một vấn đề
+                        bằng chính logic của bản thân là một trong những lý do
+                        tôi ngày càng yêu thích con đường này.
                     </h3>
                     <h4 className={cx('about-description')}>
-                        <span className="highlight">Full Name: </span>
+                        <span className="highlight">Họ tên đầy đủ: </span>
                         Nguyễn Văn Giàu
                         <br />
-                        <span className="highlight">Date of Birth: </span>
-                        April 6, 2001
+                        <span className="highlight">Sinh ngày: </span>
+                        6 Tháng 4 Năm 2001
                         <br />
-                        <span className="highlight">Gender: </span>
-                        Male
-                        <br />
-                        <span className="highlight">Address: </span>
-                        Cho Gao, Tien Giang
+                        <span className="highlight">Giới tính: </span>
+                        Nam
                         <br />
                         <span className="highlight">Email: </span>
                         vangiau.dev@gmail.com
                         <br />
                     </h4>
                     <h3>
-                        Apart from coding, some other activities that I love to
-                        do!
+                        Ngoài việc viết code ra, tôi còn tham gia một số hoạt
+                        động yêu thích!
                     </h3>
                     <div className={cx('hobby')}>
                         <h3>
-                            <FontAwesomeIcon icon={faFutbol} /> Playing Football
+                            <FontAwesomeIcon icon={faFutbol} /> Đá bóng
                         </h3>
                         <h3>
-                            <FontAwesomeIcon icon={faUmbrellaBeach} />{' '}
-                            Travelling
+                            <FontAwesomeIcon icon={faUmbrellaBeach} /> Du lịch
+                            cùng bạn bè
                         </h3>
                     </div>
                 </div>
@@ -63,6 +58,7 @@ const About = () => {
                 </div>
             </div>
             <Skill />
+            <Experience />
             <Github />
         </>
     );
