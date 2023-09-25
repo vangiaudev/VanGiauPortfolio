@@ -24,7 +24,7 @@ export const projects = [
         link: 'https://thaco-cms.toponseek.com/',
     },
     {
-        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/254105436-b42c758d-75ff-41c2-bdb5-2811968c2447.png',
+        image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/75024999/270224407-8f473394-6988-4fc1-acf1-dbaa4eb2fe28.jpg',
         name: 'Mazda App',
         description:
             'MAZDA APP | ỨNG DỤNG MAZDA SERVICE DÀNH RIÊNG CHO KHÁCH HÀNG SỞ HỮU XE MAZDA',
@@ -43,7 +43,7 @@ export const projects = [
         image: 'https://user-images.githubusercontent.com/75024999/233792054-6214724a-52e9-4f4d-b08f-6e679df12f15.png',
         name: 'Tool SEO',
         description:
-            'SEO Tools Free by TopOnSeek',
+            'SEO Tools Free by TopOnSeek. Checking keyword ranking report website, mobile app by TopOnSeek.',
         source: '#',
         link: 'https://tool.toponseek.com/',
     },
@@ -51,15 +51,15 @@ export const projects = [
         image: 'https://user-images.githubusercontent.com/75024999/233791787-e9316db9-fbb9-4f5d-a5f3-dbeb84821a3f.png',
         name: 'Money24h',
         description:
-            'Money24H - Tin tức thị trường tài chính ngân hàng mới nhất 24H qua',
+            'Money24H - Thông tin và dữ liệu kinh tế, thị trường tài chính, chứng khoán, bất động sản cập nhật 24/7.',
         source: '',
         link: 'https://money24h.vn/',
     },
     {
         image: 'https://user-images.githubusercontent.com/75024999/203250364-ed0dc1b6-01f2-47bb-8579-c5cd087c1143.png',
-        name: 'System Student Certification Registration',
+        name: 'HỆ THỐNG ĐĂNG KÝ XÁC NHẬN SINH VIÊN',
         description:
-            'SCRS (Hệ thống đăng ký xác nhận sinh viên) là hệ thống đăng ký chứng chỉ sinh viên cho các mục đích như đình chỉ nghĩa vụ quân sự, thủ tục cho vay, v.v. SCRS hỗ trợ tin học hóa các tài liệu. Các chức năng cơ bản mà một hệ thống quản lý sinh viên cần có.',
+            'SCRS (System Student Certification Registration) là hệ thống đăng ký chứng chỉ sinh viên cho các mục đích như đình chỉ nghĩa vụ quân sự, thủ tục cho vay, v.v.',
         source: 'https://github.com/vangiaudev/ChungNhanSinhVienHCMUE.git',
         link: 'http://dkcn.herokuapp.com/',
     },
@@ -93,6 +93,6 @@ export const projects = [
         description:
             'Ứng dụng này được viết trên nền tảng Java và chạy trên các thiết bị Android. Sử dụng cơ sở dữ liệu MySQL & Firebase',
         source: 'https://github.com/vangiaudev/ShopTech_App_Android.git',
-        link: 'https://github.com/vangiaudev/ShopTech_App_Android.git',
+        link: 'https://github.com/vangiaudev/ShopTech_App_Android/blob/main/app-debug.apk',
     },
 ];

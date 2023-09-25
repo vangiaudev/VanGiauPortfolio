@@ -30,7 +30,7 @@ const socials = [
         icon: (
             <FontAwesomeIcon className={cx('socials-icon')} icon={faTwitter} />
         ),
-        link: 'https://twitter.com/vangiau_dev',
+        link: 'https://twitter.com/vangiaudev',
     },
     {
         icon: (

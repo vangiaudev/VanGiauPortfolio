@@ -13,7 +13,7 @@ const About = () => {
         <>
             <div className={cx('wrapper')}>
                 <div className={cx('content')}>
-                    <h1 className={cx('heading')}>Ước mơ từ bé</h1>
+                    <h1 className={cx('heading highlight')}>Ước mơ từ bé</h1>
                     <h3>
                         Niềm đam mê máy tính đã đồng hành cùng tôi trong suốt
                         những năm tháng cấp 3. Sự hứng thú với môn học Pascal

@@ -30,7 +30,9 @@ const Home = () => {
                     </h2>
                     <h1 className={cx('heading-name')}>
                         Tôi là
-                        <strong className={cx('highlight')}>Nguyễn Văn Giàu</strong>
+                        <strong className={cx('highlight')}>
+                            Nguyễn Văn Giàu
+                        </strong>
                     </h1>
                     <div className={cx('type-name')}>
                         <Typewriter />
@@ -54,7 +56,7 @@ const Home = () => {
                                     icon={faGithub}
                                 />
                             </a>
-                            <a href="https://fb.com/vangiau.recca">
+                            <a href="https://fb.com/vangiau.dev">
                                 <FontAwesomeIcon
                                     className={cx('icon')}
                                     icon={faFacebook}

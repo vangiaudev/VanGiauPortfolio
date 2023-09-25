@@ -9,6 +9,8 @@ import {
     faNodeJs,
     faReact,
     faAngular,
+    faMicrosoft,
+    faAndroid,
 } from '@fortawesome/free-brands-svg-icons';
 const cx = classNames.bind(styles);
 const Skill = () => {
@@ -18,6 +20,9 @@ const Skill = () => {
                 Professional <span className={cx('highlight')}>Skillset</span>
             </h1>
             <div className={cx('skills')}>
+                <div className={cx('skills-item')}>
+                    <FontAwesomeIcon icon={faMicrosoft} />
+                </div>
                 <div className={cx('skills-item')}>
                     <FontAwesomeIcon icon={faHtml5} />
                 </div>
@@ -35,6 +40,9 @@ const Skill = () => {
                 </div>
                 <div className={cx('skills-item')}>
                     <FontAwesomeIcon icon={faNodeJs} />
+                </div>
+                <div className={cx('skills-item')}>
+                    <FontAwesomeIcon icon={faAndroid} />
                 </div>
             </div>
         </div>
