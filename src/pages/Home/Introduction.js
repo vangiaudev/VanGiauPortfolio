@@ -57,12 +57,10 @@ const Introduction = () => {
                             <span className={cx('highlight')}>
                                 Huyện Chợ Gạo
                             </span>
-                            . Và tôi tự hào được gọi Chợ Gạo là ngôi nhà của
-                            mình. Tôi đã trải qua nhiều năm ở đây và nơi đây đã
+                            .Tôi đã trải qua nhiều năm ở đây và nơi đây đã
                             đánh dấu hành trình phát triển của một lập trình
-                            viên. Huyện Chợ Gạo không giống bất kỳ nơi nào khác.
-                            Đây là một nơi nằm bên bờ sông Tiền Giang, với những
-                            cánh đồng xanh rộn và con người thân thiện. Tôi đã
+                            viên. Đây là một nơi nằm bên bờ sông Tiền Giang, với những
+                            cánh đồng xanh rờn và con người thân thiện. Tôi đã
                             được sinh ra và lớn lên ở đây, và tôi không thể khỏi
                             cảm ơn cuộc sống tại đây đã giúp tôi trở nên mạnh mẽ
                             và kiên định. Tôi luôn mang trong mình tinh thần của
