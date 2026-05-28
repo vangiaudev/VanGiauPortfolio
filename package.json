@@ -2,6 +2,9 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
+    "engines": {
+        "node": "24.x"
+    },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.1.0",
         "@fortawesome/free-brands-svg-icons": "^6.0.0",
