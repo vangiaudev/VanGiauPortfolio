@@ -55,36 +55,16 @@ const Introduction = () => {
                             <span className={cx('highlight')}>Giàu</span>
                             được sinh ra và lớn lên tại{' '}
                             <span className={cx('highlight')}>
-                                Huyện Chợ Gạo
+                                Huyện Chợ Gạo, Tỉnh Tiền Giang
                             </span>
-                            .Tôi đã trải qua nhiều năm ở đây và nơi đây đã
-                            đánh dấu hành trình phát triển của một lập trình
-                            viên. Đây là một nơi nằm bên bờ sông Tiền Giang, với những
-                            cánh đồng xanh rờn và con người thân thiện. Tôi đã
-                            được sinh ra và lớn lên ở đây, và tôi không thể khỏi
-                            cảm ơn cuộc sống tại đây đã giúp tôi trở nên mạnh mẽ
-                            và kiên định. Tôi luôn mang trong mình tinh thần của
-                            người dân nông thôn Việt Nam - sự kiên trì và lòng
-                            hướng về mục tiêu.
+                            . Vùng đất này, bên bờ sông Tiền hữu ngạn với những cánh đồng lúa xanh mướt, đã nuôi dưỡng ý chí và sự kiên trì trong tôi. Tôi tự hào mang trong mình tinh thần quyết tâm và lòng hướng thượng của người dân quê hương.
                         </h4>
                         <h4>
-                            🤷‍♂️ Tôi đã theo đuổi đam mê lập trình từ khi còn trẻ,
-                            và dần dần, tôi đã thấy mình tiến gần hơn đến mục
-                            tiêu trở thành một lập trình viên chuyên nghiệp. Và
-                            tôi đã tốt nghiệp ngành{' '}
-                            <span className={cx('highlight')}>
-                                Công Nghệ Thông Tin
-                            </span>{' '}
-                            của Trường Đại Học Sư Phạm TP.HCM. Nhưng điều quan
-                            trọng là cuộc hành trình này không chỉ dừng lại ở
-                            đó. Tôi đã phấn đấu không ngừng, học hỏi và phát
-                            triển bản thân để trở thành một{' '}
-                            <span className={cx('highlight')}>
-                                Software Engineer
-                            </span>
-                            tại một tập đoàn hàng đầu Việt Nam - Tập đoàn bưu
-                            chính viễn thông Việt Nam (VNPT).
+                            🤷‍♂️ Tôi tốt nghiệp ngành Công nghệ Thông tin của Trường Đại Học Sư Phạm TP.HCM. Sau khi ra trường, tôi bắt đầu hành trình sự nghiệp với vai trò Software Engineer tại một tập đoàn hàng đầu Việt Nam - Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT). Chính tại đây, tôi đã được rèn luyện tư duy logic, khả năng xử lý dữ liệu và xây dựng hệ thống bài bản.
                         </h4>
+                        <h4>Khi đang làm việc tại VNPT, tôi vinh dự nhận lệnh và lên đường nhập ngũ, thực hiện nghĩa vụ quân sự thiêng liêng với Tổ quốc. Môi trường quân đội đã rèn luyện cho tôi một bản lĩnh kiên cường, tính kỷ luật cao, tác phong nghiêm túc và khả năng chịu áp lực tuyệt vời.
+                        </h4>
+                        <h4>Sau khi hoàn thành nghĩa vụ quân sự và xuất ngũ, tôi quyết định thử thách bản thân ở một chương mới và chuyển hướng sang lĩnh vực Logistics. Hiện tại, tôi đang cống hiến với vai trò Nhân viên Hậu cần tại Boxme Việt Nam – hệ thống hỗ trợ hậu cần thương mại điện tử hàng đầu. Sự kết hợp giữa tư duy logic của một kỹ sư IT và tính kỷ luật của người lính giúp tôi nhanh chóng làm chủ các quy trình vận hành kho bãi, quản lý dữ liệu hàng hóa và tối ưu hóa chuỗi cung ứng một cách hiệu quả nhất. </h4>
                     </div>
                 </div>
                 <div className={cx('content')}>
