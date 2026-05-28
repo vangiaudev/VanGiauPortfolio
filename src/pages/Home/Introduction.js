@@ -64,7 +64,10 @@ const Introduction = () => {
                         </h4>
                         <h4>Khi đang làm việc tại VNPT, tôi vinh dự nhận lệnh và lên đường nhập ngũ, thực hiện nghĩa vụ quân sự thiêng liêng với Tổ quốc. Môi trường quân đội đã rèn luyện cho tôi một bản lĩnh kiên cường, tính kỷ luật cao, tác phong nghiêm túc và khả năng chịu áp lực tuyệt vời.
                         </h4>
-                        <h4>Sau khi hoàn thành nghĩa vụ quân sự và xuất ngũ, tôi quyết định thử thách bản thân ở một chương mới và chuyển hướng sang lĩnh vực Logistics. Hiện tại, tôi đang cống hiến với vai trò Nhân viên Hậu cần tại Boxme Việt Nam – hệ thống hỗ trợ hậu cần thương mại điện tử hàng đầu. Sự kết hợp giữa tư duy logic của một kỹ sư IT và tính kỷ luật của người lính giúp tôi nhanh chóng làm chủ các quy trình vận hành kho bãi, quản lý dữ liệu hàng hóa và tối ưu hóa chuỗi cung ứng một cách hiệu quả nhất. </h4>
+                        <h4>Sau khi hoàn thành nghĩa vụ quân sự và xuất ngũ, tôi quyết định thử thách bản thân ở một chương mới và chuyển hướng sang lĩnh vực Logistics. Hiện tại, tôi đang cống hiến với vai trò 
+                        <span className={cx('highlight')}>
+                                Nhân viên Hậu cần
+                        </span> tại Boxme Fulfilment Center – hệ thống hỗ trợ hậu cần thương mại điện tử hàng đầu. Sự kết hợp giữa tư duy logic của một kỹ sư IT và tính kỷ luật của người lính giúp tôi nhanh chóng làm chủ các quy trình vận hành kho bãi, quản lý dữ liệu hàng hóa và tối ưu hóa chuỗi cung ứng một cách hiệu quả nhất. </h4>
                     </div>
                 </div>
                 <div className={cx('content')}>
